@@ -11,6 +11,7 @@ import { ArgumentComponent } from './argument/arguement.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MyMaterialModule } from './MdModule.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { QuillModule } from 'ngx-quill';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     NgbModule,
     BrowserAnimationsModule,
     MyMaterialModule,
+    QuillModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],
